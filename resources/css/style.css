@@ -81,6 +81,7 @@ border: 40px solid black;
 #locations {
   background-image: url(images/img-locations-background.jpg);
   height: 500px;
+  width: 1200px;
   border: 50px solid black;
 }
 .locations {
