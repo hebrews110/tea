@@ -1,56 +1,80 @@
-* {
-  font-family: Helvetica;
-  font-size: 22px;
-  background-color: black;
-  color: seashell;
-  opacity: ;
+body {
+font-family: Helvetica;
+font-size: 22px;
+background-color: black;
+color: seashell;
+opacity: .9 ;
 }
 header {
-  background-color: black;
-  height: 69px;
-  position: fixed;
-  display: inline-flex;
-  justify-content: center;
-  align-content: center;
-  z-index: 10;
-  width: 100%;
-  top: 0px;
-  border-bottom: 1px solid seashell;
+background-color: black;
+height: 69px;
+position: fixed;
+display: flex;
+justify-content: center;
+align-content: center;
+z-index: 10;
+width: 100%;
+top: 0px;
+border-bottom: 1px solid seashell;
 }
 nav {
-  flex-wrap: nowrap;
-  flex-grow: 1;
-  text-align: right;
+flex-wrap: wrap;
+flex-grow: 1;
+text-align: right;
+margin-top: 20px;
 }
 header img {
-  padding-left: 10px;
-  height: 50px;
+padding-left: 10px;
+height: 50px;
+margin-top: 10px;
 }
 nav a {
-  padding-right: 10px;
-  padding-left: 10px;
+padding: 20px 10px;
+color: seashell;
 }
 #mission {
-    background-image: url(images/img-mission-background.jpg);
-    padding-top: 70px;
-    height: 700px;
-    width: 1200px;
-    border: 40px solid black;
-    display: flex;
-    flex-direction: column;
+background-image: url(images/img-mission-background.jpg);
+padding-top: 70px;
+height: 700px;
+width: 1200px;
+border: 40px solid black;
+display: flex;
+flex-direction: column;
+z-index: 5;
 }
 .container {
-   display: flex;
-   justify-content: center;
-   align-items: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.title {
+  background-color: black;
+  width: 100%;
 }
 h2,
 h4 {
-  text-align: center;
-  padding: 10px;
-  width: 100%;
-  margin: 0;
+text-align: center;
+padding: 10px;
+width: 100%;
+margin: 0%
 }
 .main {
-
+ display: block;
+}
+.month {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+border: 40px solid black;
+}
+.tea img {
+  height: 200px;
+  width: 300px;
+  display: block;
+  padding: 10px;
+}
+.tea span {
+  display: block;
+  text-align: center;
+  padding: 10px;
 }
