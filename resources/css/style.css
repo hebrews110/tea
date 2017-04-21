@@ -34,6 +34,7 @@ color: seashell;
 }
 #mission {
 background-image: url(images/img-mission-background.jpg);
+margin: auto;
 padding-top: 70px;
 height: 700px;
 width: 1200px;
@@ -83,6 +84,7 @@ border: 40px solid black;
   height: 500px;
   width: 1200px;
   border: 50px solid black;
+  margin: auto;
 }
 .locations {
   width: 1000px;
