@@ -1,0 +1,30 @@
+* {
+  font-family: Helvetica;
+  font-size: 22px;
+  background-color: black;
+  color: seashell;
+}
+header {
+  background-color: black;
+  height: 69px;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  z-index: 5;
+  width: 100%;
+  top: 0px;
+  border-bottom: 1px solid seashell;
+}
+nav {
+  flex-wrap: nowrap;
+  flex-grow: 1;
+  text-align: right;
+}
+header img {
+  padding-left: 10px;
+  height: 50px;
+}
+nav a {
+  padding-right: 10px;
+  padding-left: 10px;
+}
