@@ -3,14 +3,16 @@
   font-size: 22px;
   background-color: black;
   color: seashell;
+  opacity: ;
 }
 header {
   background-color: black;
   height: 69px;
   position: fixed;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
-  z-index: 5;
+  align-content: center;
+  z-index: 10;
   width: 100%;
   top: 0px;
   border-bottom: 1px solid seashell;
@@ -27,4 +29,28 @@ header img {
 nav a {
   padding-right: 10px;
   padding-left: 10px;
+}
+#mission {
+    background-image: url(images/img-mission-background.jpg);
+    padding-top: 70px;
+    height: 700px;
+    width: 1200px;
+    border: 40px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+h2,
+h4 {
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  margin: 0;
+}
+.main {
+
 }
